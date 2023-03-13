@@ -5,3 +5,13 @@
 ## Installation
 * [Install NodeJS and npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
 * [Install Express.js](https://expressjs.com/en/starter/installing.html)
+* Clone the repository
+```bash
+$ git clone https://github.com/iTzNikolovich/tempboard
+```
+* Install the necessary packages
+```bash
+$ cd tempboard/
+$ npm install
+```
+
