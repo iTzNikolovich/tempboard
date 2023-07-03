@@ -7,7 +7,7 @@
 * [Install Express.js](https://expressjs.com/en/starter/installing.html)
 * Clone the repository
 ```bash
-$ git clone https://github.com/iTzNikolovich/tempboard
+$ git clone https://github.com/nicolocarcagni/tempboard
 ```
 * Install the necessary packages
 ```bash
