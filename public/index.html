@@ -8,22 +8,23 @@
     <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png">
     <link rel="manifest" href="assets/site.webmanifest">
-    <script src="data.js"></script>
+    <script src="main.js"></script>
+    <script src="get.js"></script>
   </head>
   <body>
     <header>
-      <h1><a href="index.html">Dashboard</a></h1>
+      <h1><a href="index.html">TempBoard</a></h1>
     </header>
     <div class="container">
-      <div class="card">
-        <h2>Room 1</h2>
-        <p>Current Temperature:</p>
+      <div class="card" onclick="rotateCard()">
+        <h2>OUTDOOR</h2>
         <p class="temp" id="T1">N/A</p>
+        <p class="temp" id="H1" style="display: none;">N/A</p>
         <p id="date" style="visibility: hidden; text-align: center;"></p>
       </div>
     </div>
     <footer>
-      <p><a href="https://github.com/nicolocarcagni">&copy;2023 nicolocarcagni</a></p>
+      <p><a href="https://github.com/nicolocarcagni">&copy;2023 | nicolocarcagni</a></p>
     </footer>
   </body>
 </html>
