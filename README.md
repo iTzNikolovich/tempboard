@@ -30,5 +30,5 @@ const char* serverUrl = ""; // your server url
 4. Flash on your device
 5. Connect your sensor to the ESP
 6. Power it
-7. Check ESP's MAC address and edit line 3 of [```public/get.js```](https://github.com/nicolocarcagni/tempboard/blob/main/public/get.js)
+7. Check ESP's MAC address from the serial monitor and edit line 3 of [```public/get.js```](https://github.com/nicolocarcagni/tempboard/blob/main/public/get.js)
 8. Start your server and enjoy!
